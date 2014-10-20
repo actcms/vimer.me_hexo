@@ -7,14 +7,12 @@ rss: /atom.xml
 excerpt_link: Read More
 archive_date_format: MMM DD
 
-widgets:
-    - category
-    - tagcloud
-    - recent_posts
-    - blogrolls
+blogrolls: 
+- Hexo: http://coolshell.cn
 
-blogrolls:
-    - 酷壳: http://coolshell.cn
+widgets: 
+- blogroll
+- weibo
 
 fancybox: true
 
