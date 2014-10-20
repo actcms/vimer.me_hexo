@@ -1,5 +1,5 @@
 # Modernist
-
+修改过的版本，向原作者致谢.
 > Theme for [Hexo]. Based on [modernist theme] for GitHub Pages.
 
 [Demo the Theme]
