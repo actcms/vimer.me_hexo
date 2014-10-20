@@ -1,12 +1,24 @@
 menu:
   Home: /
   Archives: /archives
+  About: /about
 rss: /atom.xml
 
+excerpt_link: Read More
 archive_date_format: MMM DD
+
+widgets:
+    - category
+    - tagcloud
+    - recent_posts
+    - blogrolls
+
+blogrolls:
+    - 酷壳: http://coolshell.cn
+
 fancybox: true
 
-duoshuo_shortname:
+duoshuo_shortname: vimerme
 
 google_analytics:
 favicon: /favicon.ico
