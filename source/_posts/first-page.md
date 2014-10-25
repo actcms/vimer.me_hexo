@@ -24,3 +24,6 @@ tags: [创业,产品]
 ![历史](http://img.wdjimg.com/mms/screenshot/2/8d/595022453f1292f58adec530ca9188d2_320_568.jpeg "历史")
 ![时间碎片化](http://img.wdjimg.com/mms/screenshot/7/b0/792fffd3f6de9e4753dae46756380b07_320_568.jpeg  "时间碎片化")
 ![单个APP使用情况](http://img.wdjimg.com/mms/screenshot/d/4d/e5306ad7f063191aa3865715ad86c4dd_320_568.jpeg "单个APP使用情况")
+
+---
+当然如果你以为24π只是解决以上问题，那么你太小看我们团队了 ! 这只是我们一小步的切入而已.
