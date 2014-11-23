@@ -3,20 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-site_title: MORE THAN VIMER | Geek for anything
-title: MORE THAN VIMER
+site_title: More Than Vimer | Geek for anything
+title: More Than Vimer
 subtitle: --- Geek for anything
-description: 互联网创业 | vim | Emacs | C | nodejs | 操作系统 | 数据结构和算法
+description: 互联网创业 | 架构之美 | Objective-C | swift | javascript | vim | Emacs | C | nodejs | 操作系统 | 数据结构和算法
 author: vimer.me
 email: emacs#vimer.org
-language: zh-CN
+#language: zh-CN
+language: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://vimer.me
 root: /
-permalink: :year/:month/:day/:title/
-tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
@@ -81,8 +80,13 @@ duoshuo_shortname: vimerme
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
+#theme: hexo-theme-flat
+#theme: hexo-theme-apollo
+#theme: hexo-theme-aiki
 theme: modernist
+#theme: hexo-theme-mame
 #theme: landscape
+#theme: hexo-theme-noderce
 exclude_generator:
 
 plugins: 
