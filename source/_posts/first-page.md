@@ -27,5 +27,8 @@ tags: [创业,产品]
 
 ---
 当然如果你以为24π只是解决以上问题，那么你太小看我们团队了 ! 这只是我们一小步的切入而已.
+<<<<<<< HEAD
 
 <center><font color='#a44a54' size='2px'>(转载文章请注明原文出处 <a href='http://vimer.me' style='font-color:#496b98'>MORE THAN VIMER)</a></font></center>
+=======
+>>>>>>> 0ca7db928e8732bc0e7dd3c31b1e4e362ee4222b
