@@ -32,7 +32,7 @@ Framer.js支持CoffeeScript和javascript,别以为需要写代码效率低,其�
 
 这个原型需要三张背景图
 ```CoffeeScript
-layerIndex = new Layer({width:650, height:1100, image:"./images/24pi_index.png"})
+layerIndex = new Layer({width:650, height:1100, image:"./images/24piIndex.png"})
 layerInnerA = new Layer({width:650, height:1100, image:"./images/24piInnerA.png"})
 layerInnerB = new Layer({width:650, height:1100, image:"./images/24piInnerB.png"})
 ```
