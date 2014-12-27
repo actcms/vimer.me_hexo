@@ -20,7 +20,7 @@ root: /
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-permalink_defaults:
+permalink: articles/:title.html
 
 # Directory
 source_dir: source
