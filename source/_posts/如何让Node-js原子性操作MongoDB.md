@@ -23,7 +23,7 @@ tags: [Node.js,MongoDB,原子性]
 ```javascript
 co(function* () {
 	for (var i=0; i<3000; i++) {
-		var getTest = yield mongoCtest.findOne({"name":"good"}, {"fields":{"_id":0}});
+		var getTest = yield mongoCtest.findOne({"name":"cb"}, {"fields":{"_id":0}});
 		getTest.data =  getTest.data+1;
 		console.log(getTest);
 		yield mongoCtest.update({"name":"good"}, {"$set":getTest});
@@ -56,7 +56,7 @@ co(function* () {
 
 下面就是我们想要的结果:)
 
-![事务控制](http://ww1.sinaimg.cn/large/744e593bgw1enhm5tgq6qj20xt0njqbo.jpg)
+![原子性控制](http://ww1.sinaimg.cn/large/744e593bgw1enhm5tgq6qj20xt0njqbo.jpg)
 
 PS: 个人写博,比较随性,若有哪里不清楚可以直接回复 .
 
