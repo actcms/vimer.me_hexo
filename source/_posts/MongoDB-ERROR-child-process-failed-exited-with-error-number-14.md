@@ -1,6 +1,6 @@
 title: "MongoDB ERROR: child process failed, exited with error number 14"
 date: 2015-01-08 00:21:02
-tags: [MongoDB]
+tags: [MongoDB,异常]
 ---
 ```javascript
 about to fork child process, waiting until server is ready for connections.                                                                                             [121/1846]
