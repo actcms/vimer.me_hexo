@@ -26,5 +26,39 @@ for (var i=0; i<docs.length; i++) {
 1.可以使用队列批量回调,限制在回调池大小之内
 2.同步每一个回调
 
+有两个现成得module可以解决这种问题:
+
+```javascript
+//bagpipe
+var async = function(val, callback) {
+	setTimeout(function() {}, 1000);
+}
+var bagpipe = new Bagpipe(500);
+for (var i=0; i<docs.length; i++) {
+	bagpipe.push(async, docs[i].value, function(callback) {
+
+	});
+}
+```
+
+```javascript
+//async
+var q = async.queue(function(task, callback) {
+	setTimeout(function() {
+		log.info(task);
+		callback(null, {});
+	}, 5000);
+}, 10);
+
+q.drain = function() {
+	log.info("finish");
+}
+
+for (var i=0; i<100; i++) {
+	q.push(i, function(err, data) {
+
+	});
+}
+```
 
 <center><font color='#a44a54' size='2px'>(转载文章请注明原文出处 <a href='http://vimer.me' style='font-color:#496b98'>More Than Vimer)</a></font></center>
